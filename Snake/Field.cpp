@@ -48,7 +48,7 @@ int Field::move(char ch){
 			}
 			else{
 				cout << "You Failed" << "\n";
-				return 0;
+				exit(1);
 				break;
 			}
 		}
@@ -67,7 +67,7 @@ int Field::move(char ch){
 			}
 			else {
 				cout << "You Failed"<<"\n";
-				return 0;
+				exit(1);
 				break;
 			}
 		}
@@ -86,7 +86,7 @@ int Field::move(char ch){
 			}
 			else {
 				cout << "You Failed" << "\n";
-				return 0;
+				exit(1);
 				break;
 			}
 		}
@@ -105,17 +105,15 @@ int Field::move(char ch){
 			}
 			else {
 				cout << "You Failed" << "\n";
-				return 0;
+				exit(1);
 				break;
 			}
 		}
 	default:
-		return 1;
 		break;
 	}
 	field[gaduka.getCoordinateX(1)][gaduka.getCoordinateY(1)] = 7;
 	field[gaduka.getCoordinateX(0)][gaduka.getCoordinateY(0)] = 8;
-	return 1;
 }
 
 
