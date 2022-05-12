@@ -7,15 +7,6 @@ const int m = 30;
 int main()
 {
     Field game;
-    //game.print();
-   /* int field[n][m];
-    char walls[7] = { 255, 186,205,201,187,200,188 };
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < m; j++) {
-            cout << walls[field[i][j]];
-        }
-        cout << "\n";
-    }*/
     char ch = 'd';
     int code;
     int start = 1;
